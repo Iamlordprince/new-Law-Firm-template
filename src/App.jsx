@@ -1,5 +1,7 @@
 import './App.css'
 import About from './components/about'
+import Clear from './components/clear'
+import Footer from './components/footer'
 import Home from './components/home'
 import NavBar from './components/navBar'
 import OurServices from './components/ourServices'
@@ -15,6 +17,8 @@ function App() {
     <PracticalArea/>
     <About/>
     <OurServices/>
+    <Clear/>
+    <Footer/>
    </div>
   )
 }

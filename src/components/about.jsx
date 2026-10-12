@@ -3,7 +3,7 @@ import img3 from '../assets/img3.png'
 
 function About() {
     return (
-        <div className="bg-[#F7F6F4] w-full h-auto flex flex-col lg:flex-row mt-8 mb-2">
+        <div className="bg-[#F7F6F4] w-full h-auto flex flex-col lg:flex-row mt-8 mb-2 lg:gap-5">
 
             {/* Image */}
             <div className=" w-full lg:w-1/2 flex items-center justify-center px-4 lg:px-0">
@@ -28,7 +28,7 @@ function About() {
 
                 <div className="w-20 mt-7 h-1 bg-[#DA9735]"></div>
 
-                <p className="mt-7 text-base sm:text-lg lg:text-xl text-start w-full lg:w-[600px]">
+                <p className="mt-7 text-base sm:text-lg lg:text-xl p-2 text-start w-full  lg:w-[600px]">
                     Our attorneys are the cornrestone of our commitment to providing exceptional legal services. Each member of our team brings a wealth of experience,
                     specialized knowledge, and a deep dedication to achieving the best outcomes for our clients. We pride ourselves on our collaborative approach,
                     ensuring that every case benefits from the collective expertise of our diverse legal team.

@@ -99,7 +99,7 @@ function OurServices() {
                 We offer a wide range of legal services designed to protect your rights, resolve your challenges, and help you achieve the best possible outcomes.
             </p>
 
-            <div className='w-full mt-5 px-4 pb-8 grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-nowrap gap-5 lg:gap-2 justify-items-center lg:justify-center items-center'>
+            <div className='w-full  mt-5 px-4 pb-8 grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-nowrap gap-5 lg:gap-2 justify-items-center lg:justify-center items-center'>
                 {caards.map((e) => (
                     <Caards
                         key={e.id}
